@@ -1,0 +1,143 @@
+header{
+    display: block; 
+ 
+    padding-top: 28px;
+    padding-bottom: 28px;
+    text-align: center;
+ }
+ 
+ body{
+     text-align: center;
+ }
+ 
+ header .logo{
+     width: 120px;
+     height: auto;
+ }
+ 
+ nav{
+     display: block;
+ 
+     background: #333;
+     padding-top: 12px;
+     padding-bottom: 12px;
+     text-align: center;
+ }
+ 
+ nav a{
+     color: #fff;
+     text-decoration: none;
+     padding-left: 12px;
+     padding-right: 12px;
+ }
+
+ .home-news-container{
+    margin-top: 24px;
+ }
+ 
+ .news-item{
+    /*padding: 12px;*/
+    text-align: left;
+    margin-bottom: 24px;
+ }
+
+ .news-item img{
+    max-width: 100%;
+    height: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+ }
+
+ .news-item .news-title{
+    font-size: 24px;
+    color: #31cce3;
+ }
+
+ .news-item .news-excerpt{
+    color: #a5a5a5;
+ }
+
+ .news-container{
+   text-align: left;
+   margin-top: 24px;
+   margin-bottom: 24px;
+ }
+
+ .header-square{
+   display: inline-block;
+   width: 100%;
+   background: #5c5c5c;
+   color: #fff;
+   font-size: 20px;
+ }
+
+ .header-square span{
+   display: inline-block;
+   width: 25px;
+   height: 48px;
+   background: #31cce3;
+   vertical-align: middle;
+ }
+
+ .header-square.header-small span{
+   height: 32px;
+
+ }
+
+ .header-square .header-text{
+   display: inline-block;
+   padding-left: 8px;
+   vertical-align: middle;
+ }
+
+ /*ถ้ามี class "header-square"และ "header-small" ในtagเดียวกันให้ทำตามนี้*/
+ .header-square.header-small{
+   font-size: 16px;
+ }
+
+ .news-row{
+   margin-top: 24px;
+   margin-bottom: 24px;
+ }
+
+ .news-row-title{
+   font-size: 20px;
+   color: #31cce3;
+ }
+
+ .new-row-excerpt{
+   color: #a5a5a5;
+ }
+
+.search-form-container{
+   display: inline-block;
+   width: 100%;
+   text-align: center;
+   padding-top: 32px;
+   padding-bottom: 32px;
+}
+
+ .search-form{
+   display: inline-block;
+   width: 80%;
+ }
+
+ .hit-news-item{
+   margin-top: 12px;
+   margin-bottom: 12px;
+ }
+
+ .hit-news-title{
+  color: #31cce3;
+  vertical-align: middle;
+ }
+
+ .categories{
+  padding-top: 20px;
+  padding-bottom: 20px;
+ }
+
+ .categories a{
+    text-decoration: none;
+    color: #31cce3;
+ }
